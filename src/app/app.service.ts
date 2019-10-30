@@ -7,7 +7,7 @@ providedIn: 'root'
 export class AppService { 
 
 getUsers() { 
-return this.http.get('http://localhost:3000/users'); 
+return this.http.get('https://v-edcaronodejsbootcamp-api.azurewebsites.net/users'); 
 } 
 
 constructor( 
