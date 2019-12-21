@@ -7,7 +7,7 @@ import { AppService } from './app.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit{
-  title = 'angularfrontend';
+  title = 'my angularfrontend';
   users;
   constructor( 
     private appService: AppService 
